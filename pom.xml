@@ -142,6 +142,6 @@
 					</executions>
 				</plugin>
 			</plugins>
-
+        <finalName>Room</finalName>
 	</build>
 </project>
