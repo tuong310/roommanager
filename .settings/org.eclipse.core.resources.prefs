@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+encoding//src/main/java/com/room/config/ApplicationContextConfig.java=UTF-8
+encoding//src/main/java/com/room/config/HibernateConfig.java=UTF-8
+encoding//src/main/webapp/WEB-INF/jsps/addcontract.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/jsps/addroom.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/jsps/addstudent.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/jsps/dangnhap.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/jsps/editcontract.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/jsps/editroom.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/jsps/editstudent.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/jsps/listcontract.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/jsps/listroom.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/jsps/liststudent.jsp=UTF-8
