@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
+﻿<%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@taglib prefix="spring" uri="http://www.springframework.org/tags/form"%>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
@@ -22,7 +22,7 @@
 				<h1>Website Room Manager</h1>
 			</div> 
 			<div class="loginDisplay">
-			<form action="/Room" method="post">
+			<form action="/" method="post">
 				<span style="font-family: Arial; font-size: 10pt">${username}</span> <input type="submit" value="Logout"
 					style="font-weight: bold;wihth=66px">
 					 </form>
@@ -38,13 +38,13 @@
 								style="width: 15x; height: 15px">Category</a></td>
 					</tr>
 					<tr>
-						<td><a href="/Room/room/listRoom">Room Manager</a></td>
+						<td><a href="/room/listRoom">Room Manager</a></td>
 					</tr>
 					<tr>
-						<td><a href="/Room/student/listStudent">Student Manager</a></td>
+						<td><a href="/student/listStudent">Student Manager</a></td>
 					</tr>
 					<tr>
-						<td><a href="/Room/contract/listContract">Contract
+						<td><a href="/contract/listContract">Contract
 								Manager</a></td>
 					</tr>
 				</table>

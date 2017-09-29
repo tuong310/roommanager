@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
+﻿<%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@taglib prefix="spring" uri="http://www.springframework.org/tags/form"%>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
@@ -22,7 +22,7 @@
 				<h1>Website Room Manager</h1>
 			</div>
 			<div class="loginDisplay">
-				<form action="/Room" method="post">
+				<form action="/" method="post">
 				<span style="font-family: Arial; font-size: 10pt">${username}</span> <input type="submit" value="Logout"
 					style="font-weight: bold;wihth=66px">
 					 </form>
@@ -34,16 +34,16 @@
 		      <tr><td><a style="width: 50x; height: 50px"><img
 				src="${pageContext.request.contextPath}/static/images/list.png"
 				style="width: 15x; height: 15px">Category</a></td></tr>
-		      <tr><td><a href="/Room/room/listRoom">Room Manager</a></td></tr>
-		      <tr><td><a href="/Room/student/listStudent">Student Manager</a></td></tr>
-		      <tr><td><a href="/Room/contract/listContract">Contract Manager</a></td></tr>
+		      <tr><td><a href="/room/listRoom">Room Manager</a></td></tr>
+		      <tr><td><a href="/student/listStudent">Student Manager</a></td></tr>
+		      <tr><td><a href="/contract/listContract">Contract Manager</a></td></tr>
 		      </table>
 		   </div>
 		   <div class="main2">
 			<h1><img
 				src="${pageContext.request.contextPath}/static/images/list.png"
 				style="width: 25x; height: 25px">List Student</h1>
-			<a href="/Room/student/addStudent"><img
+			<a href="/student/addStudent"><img
 				src="${pageContext.request.contextPath}/static/images/add-name.jpg"
 				style="width: 25x; height: 25px"></a>
 			<table border="2" width="80%" cellpadding="2">
@@ -63,11 +63,11 @@
 						<td>${stu.gender}</td>
 						<td>${stu.address}</td>
 						<td>${stu.phone}</td>
-						<td><a href="/Room/student/listContract/${stu.id}">${stu.contract}</a></td>
-						<td><a href="/Room/student/editStudent/${stu.id}"><img
+						<td><a href="/student/listContract/${stu.id}">${stu.contract}</a></td>
+						<td><a href="/student/editStudent/${stu.id}"><img
 								src="${pageContext.request.contextPath}/static/images/edit.png"
 								style="width: 12px; height: 12px"></a> &nbsp; <a
-							href="/Room/student/deleteStudent/${stu.id}"><img
+							href="/student/deleteStudent/${stu.id}"><img
 								src="${pageContext.request.contextPath}/static/images/delete.png"
 								style="width: 15x; height: 15px"></a></td>
 					</tr>

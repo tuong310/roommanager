@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.room.model.Login;
 
 @Controller
-@RequestMapping(value="Room")
+@RequestMapping(value="")
 public class LoginController {
       
 	@RequestMapping(method = RequestMethod.GET)
