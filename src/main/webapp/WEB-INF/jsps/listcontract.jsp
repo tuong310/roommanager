@@ -24,7 +24,7 @@
 				<h1>Website Room Manager</h1>
 			</div>
 			<div class="loginDisplay">
-				<form action="" method="post">
+				<form action="/login" method="post">
 				<span style="font-family: Arial; font-size: 10pt">${username}</span> <input type="submit" value="Logout"
 					style="font-weight: bold;wihth=66px">
 					 </form>
@@ -54,7 +54,7 @@
 				<h1><img
 				src="${pageContext.request.contextPath}/static/images/list.png"
 				style="width: 25x; height: 25px">List Contract</h1>
-				<a href="/Room/contract/addContract"><img
+				<a href="/contract/addContract"><img
 					src="${pageContext.request.contextPath}/static/images/add-text.jpg"
 					style="width: 25x; height: 25px"></a> 
 				<table border="2" width="80%" cellpadding="2">

@@ -14,7 +14,7 @@ import com.room.model.Login;
 @RequestMapping(value="")
 public class LoginController {
       
-	@RequestMapping(method = RequestMethod.GET)
+	@RequestMapping(value="/",method = RequestMethod.GET)
 	 public String Login(ModelMap mm){
 		 mm.addAttribute("lg", new Login());
 		 return "login";
@@ -29,4 +29,13 @@ public class LoginController {
 		mm.addAttribute("message","<font color=red>Username or PassWord is wrong!!</font>");
 		return "login";
 		}
-	}}
+	}
+       @RequestMapping(value="/login",method = RequestMethod.POST)
+
+	 public String Logout(ModelMap mm){
+		
+	 mm.addAttribute("lg", new Login());
+		
+ 	return "redirect:/";
+	 }
+}

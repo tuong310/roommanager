@@ -22,7 +22,7 @@
 				<h1>Website Room Manager</h1>
 			</div>
 			<div class="loginDisplay">
-				<form action="" method="post">
+				<form action="/login" method="post">
 					<span style="font-family: Arial; font-size: 10pt">${username}</span>
 					<input type="submit" value="Logout"
 						style="font-weight: bold;wihth=66px">
